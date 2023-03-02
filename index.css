@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    background: url('./img/BG.jpg');
+    background-size: 100% auto;
+    background-position: center;
+    position: relative;
+    border-radius: 5px;
+    
+}
+
+#box {
+    margin:20px;
+}
+
+/* 为图片设置绝对定位，方便设置元素偏移位置 */
+.imgGlobal {
+    position: absolute;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 图片遮盖效果 */
+.imgFilter {
+    filter: brightness(30%);
+}
+
+#storageBox {
+    height: 60px;
+    width: 420px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 40px;
+    left: 35px;
+}
